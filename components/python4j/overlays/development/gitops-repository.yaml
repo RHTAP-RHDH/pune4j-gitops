@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: python4j-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/pune4j-gitops
